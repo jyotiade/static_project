@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/app1/style.css' %} ">
+    <style>
+       
+    </style>
+</head>
+
+<body>
+  
+    <ul id="nav">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+   
+    {% block content %}
+
+    {% endblock %}
+
+    
+    <section id="sec1">
+
+
+        <div id="div10">
+
+            <div id="f1">
+                <div>Furni.</div>
+                <p>Donec facilisis quam ut purus rutrum lobortis. <br>
+                    Donec vitae odio quis nisl dapibus malesuada. <br>
+                    Nullam ac aliquet velit. Aliquam vulputate velit <br>
+                    imperdiet dolor tempor tristique.Pellentesque
+                    habitant</p>
+            </div>
+
+            <div>
+                <ul>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Support</li>
+                    <li>Knowledge base</li>
+                    <li>Live chat</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Jobs</li>
+                    <li>Our team</li>
+                    <li>Leadership</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Support</li>
+                    <li>Knowledge base</li>
+                    <li>Live chat</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>

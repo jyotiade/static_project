@@ -1,0 +1,33 @@
+{% extends 'app2/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/app2/style.css' %} ">
+</head>
+
+<body>
+    {% block content %}
+
+   
+   <center><h1>WELCOME TO PAGE</h1></center>
+   
+   <img src="{% static 'image/app2/img1.jpeg' %}" height="30%" width="28%" alt="jyoti">
+   <video width="11%" controls>
+    <source src="{% static 'video/app2/v3.mp4' %}" type="video/mp4">
+   </video>
+
+   <img src="{% static 'image/app2/img4.jpg' %}" height="30%" width="30%" alt="jyoti">
+   <video width="11%" controls>
+    <source src="{% static 'video/app2/v1.mp4' %}" type="video/mp4">
+   </video>
+
+   {% endblock %}
+   
+</body>
+
+</html>  
